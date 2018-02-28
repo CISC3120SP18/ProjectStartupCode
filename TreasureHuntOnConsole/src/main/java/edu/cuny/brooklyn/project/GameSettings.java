@@ -13,9 +13,9 @@ public class GameSettings {
 	public final static int IO_WIN_WIDTH = 70;
 	public final static int IO_WIN_HEIGHT = 3;
 	
-	public final static int FIELD_EMPTY = 0;
+	public final static char FIELD_EMPTY = ' ';
 	
-	public final static int DISPLAY_BLANK =0;
+	public final static char DISPLAY_BLANK = ' ';
 	
 	// default treasure set up
 	public final static int DEFAULT_TREASURE_SIZE = 10;
