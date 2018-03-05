@@ -6,7 +6,7 @@ public class Treasure {
 	private int[][] treasure;
 	private int size;
 	private int initialUnitValue;
-	private int toalValue;
+	private int totalValue;
 	
 	public Treasure() {
 		size = GameSettings.DEFAULT_TREASURE_SIZE;
@@ -15,7 +15,7 @@ public class Treasure {
 		for (int i=0; i<treasure.length; i++) {
 			for (int j=0; j<treasure[i].length; j++) {
 				treasure[i][j] = initialUnitValue;
-				toalValue += initialUnitValue;
+				totalValue += initialUnitValue;
 			}
 		}
 	}
@@ -26,7 +26,7 @@ public class Treasure {
 	}
 	
 	public int getTotalValue() {
-		return toalValue;
+		return totalValue;
 	}
 	
 	public int getValueAt(int x, int y) {
